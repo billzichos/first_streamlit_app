@@ -18,6 +18,6 @@ my_fruit_list = pd \
 streamlit.multiselect(
   "Pick some fruits:",
   list(my_fruit_list.index),
-  ['Avocado', Strawberries'])
+  ['Avocado', 'Strawberries'])
 
 streamlit.dataframe(my_fruit_list)
